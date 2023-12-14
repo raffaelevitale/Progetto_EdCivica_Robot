@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    height: 100vh;
+    margin:0px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    cursor: url("../Progetto_Educazione_Civica/img/cursor.png"),auto;
+}
+header{
+    width: 100vw;
+    text-align: center;
+    height: 10vh;
+    line-height: 5vh;
+    font-size: 20pt;
+    font-weight: bold;
+}
+footer{
+    width: 100vw;
+    text-align: center;
+    height: 5vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+}
+div>a{
+    color:white;
+    text-decoration: none;
+}
+
+.serch_bar{
+    width: 15vw;
+    text-align: center;
+    height: 5vh;
+    line-height: 5vh;
+    font-size: 20pt;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    align-items: center;
+    text-align: center;
+    overflow-y: scroll;
+    width: 70vw;
+}
+#img_robot1{
+    width: 30vw;
+    height: auto;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proecontro.css">
+    <!--Favicon-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Robot nel mondo del lavoro</title>
+</head>
+<body>
+    <header>
+        <div>I Robot nel mondo del lavoro</div>
+    </header>
+    <main>
+        <div class="serch_bar">
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="proecontro.html">Pro e Contro</a>
+                <a href="#">IL FUTURO?</a>
+                <a href="#">Opinioni Personali</a>
+            </div>
+        </div>
+        <div class="text">
+            <div>
+                <video src="img/VitaleAlPalazzoRighini.mp4" controls widht="640" height="360">
+                  </video>
+                  <!--usare il js per far si che all'avvio della pagina, il video parta da solo-->
+                  <script>
+                    var vid = document.getElementsByTagName("video")[0];
+                    vid.play();
+                    vid.loop = true;
+                    vid.muted = true;
+                    vid.autoplay = true;
+                  </script>
+               </div>
+    </main>
+    <footer>
+        <p>Creato da: Baratti Federico, Cacciapaglia Cristian, Vitale Raffaele</p>
+    </footer>
+</body>
+</html>

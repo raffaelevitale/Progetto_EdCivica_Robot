@@ -16,14 +16,23 @@
         <div class="serch_bar">
             <div class="navbar">
                 <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Feedback</a>
+                <a href="proecontro.html">Pro e Contro</a>
+                <a href="#">IL FUTURO?</a>
+                <a href="#">Opinioni Personali</a>
             </div>
         </div>
         <div class="text">
            <div>
-            video
+            <video src="img/unitree-robotics-go2-robot-dog-1-min.mp4" controls widht="640" height="360">
+              </video>
+              <!--usare il js per far si che all'avvio della pagina, il video parta da solo-->
+              <script>
+                var vid = document.getElementsByTagName("video")[0];
+                vid.play();
+                vid.loop = true;
+                vid.muted = true;
+                vid.autoplay = true;
+              </script>
            </div>
             <h1>
                 Introduzione
@@ -33,7 +42,7 @@
                 <p>...</p>
                 <div>
                     <p></p>
-                    <img src="" alt="">
+                    <img id="img_robot1"src="img/robot_con_quaderno.jpeg" alt="ROBOT CON QUADERNO">
                 </div>
                 <p></p>
             </div>
