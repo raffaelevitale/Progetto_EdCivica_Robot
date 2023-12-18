@@ -1,42 +1,92 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="proecontro.css">
     <!--Favicon-->
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Robot nel mondo del lavoro</title>
+    <title>Pro e Contro</title>
 </head>
+
 <body>
     <header>
-        <div>I Robot nel mondo del lavoro</div>
+        <div>Pro e Contro dei Robot</div>
     </header>
     <main>
         <div class="serch_bar">
             <div class="navbar">
                 <a href="index.html">Home</a>
                 <a href="proecontro.html">Pro e Contro</a>
-                <a href="#">IL FUTURO?</a>
-                <a href="#">Opinioni Personali</a>
+                <a href="futuro.html">IL FUTURO?</a>
+                <a href="opinioni.html">Opinioni dell'AI</a>
             </div>
         </div>
         <div class="text">
-            <div>
-                <video src="img/VitaleAlPalazzoRighini.mp4" controls widht="640" height="360">
-                  </video>
-                  <!--usare il js per far si che all'avvio della pagina, il video parta da solo-->
-                  <script>
+            <div class="video">
+                <video src="img/VitaleAlPalazzoRighini.mp4" controls widht="640" height="360"></video>
+                <script>
                     var vid = document.getElementsByTagName("video")[0];
                     vid.play();
                     vid.loop = true;
                     vid.muted = true;
                     vid.autoplay = true;
-                  </script>
-               </div>
+                </script>
+            </div>
+            <table>
+                <tr>
+                    <th>Aspetto</th>
+                    <th>Pro</th>
+                    <th>Contro</th>
+                </tr>
+                <tr>
+                    <td>Automazione</td>
+                    <td>Efficienza e precisione nelle operazioni ripetitive. Miglioramento della produzione e riduzione
+                        degli errori umani.</td>
+                    <td>Perdita di posti di lavoro per lavoratori non qualificati. Possibile resistenza da parte dei
+                        dipendenti al cambiamento.</td>
+                </tr>
+                <tr>
+                    <td>Innovazione</td>
+                    <td>Sviluppo di nuove tecnologie e opportunità di lavoro in settori avanzati come l'intelligenza
+                        artificiale e la robotica stessa.</td>
+                    <td>Obsolescenza di competenze tradizionali e necessità di riqualificazione. Disuguaglianze
+                        nell'accesso alle nuove opportunità lavorative.</td>
+                </tr>
+                <tr>
+                    <td>Costi</td>
+                    <td>Riduzione dei costi operativi a lungo termine grazie alla maggiore efficienza e produttività.
+                    </td>
+                    <td>Investimenti iniziali elevati per l'implementazione della robotica. Possibili costi di
+                        manutenzione e aggiornamento delle tecnologie.</td>
+                </tr>
+                <tr>
+                    <td>Sicurezza</td>
+                    <td>Minore rischio di incidenti sul lavoro in attività pericolose grazie all'automazione di compiti
+                        pericolosi.</td>
+                    <td>Minaccia di cyber attacchi e perdita di controllo in situazioni critiche. Dipendenza da sistemi
+                        tecnologici soggetti a malfunzionamenti.</td>
+                </tr>
+                <tr>
+                    <td>Collaborazione uomo-macchina</td>
+                    <td>Potenziale per una maggiore collaborazione tra lavoratori umani e robot, sfruttando le
+                        rispettive competenze.</td>
+                    <td>Difficoltà nell'integrazione e nella gestione della collaborazione uomo-macchina. Rischi di
+                        sostituzione di alcune mansioni umane.</td>
+                </tr>
+                <tr>
+                    <td>Ethical considerations</td>
+                    <td>Applicazione di principi etici nella programmazione e nell'uso della robotica per garantire
+                        comportamenti responsabili.</td>
+                    <td>Preoccupazioni etiche legate all'uso indiscriminato della robotica, inclusi problemi di privacy
+                        e impatti sociali.</td>
+                </tr>
+            </table>
     </main>
     <footer>
         <p>Creato da: Baratti Federico, Cacciapaglia Cristian, Vitale Raffaele</p>
     </footer>
 </body>
+
 </html>

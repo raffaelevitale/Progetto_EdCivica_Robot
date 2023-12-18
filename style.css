@@ -1,60 +1,80 @@
-body{
-    display: flex;
-    height: 100vh;
-    margin:0px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    color: white;
-    cursor: url("../Progetto_Educazione_Civica/img/cursor.png"),auto;
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  cursor: url("../Progetto_Educazione_Civica/img/cursor.png"), auto;
 }
-header{
-    width: 100vw;
-    text-align: center;
-    height: 10vh;
-    line-height: 5vh;
-    font-size: 20pt;
-    font-weight: bold;
+header {
+  width: 100vw;
+  text-align: center;
+  height: 10vh;
+  line-height: 5vh;
+  font-size: 20pt;
+  font-weight: bold;
 }
-footer{
-    width: 100vw;
-    text-align: center;
-    height: 5vh;
+footer {
+  width: 100vw;
+  text-align: center;
+  height: 5vh;
 }
-main{
-    display: flex;
-    flex-direction: row;
-    height: 85vh;
+main {
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
 }
-div>a{
-    color:white;
-    text-decoration: none;
-}
-
-.serch_bar{
-    width: 13vw;
-    text-align: center;
-    height: 5vh;
-    line-height: 5vh;
-    font-size: 17pt;
-    font-weight: bold;
-    background-color: black;
-    color: white;
+div > a {
+  color: white;
+  text-decoration: none;
 }
 
-.navbar{
-    display: flex;
-    flex-direction: column;
+.serch_bar {
+  width: 13vw;
+  text-align: center;
+  height: 5vh;
+  line-height: 5vh;
+  font-size: 17pt;
+  font-weight: bold;
+  background-color: black;
+  color: white;
 }
 
-.text{
-    align-items: center;
-    text-align: center;
-    overflow-y: scroll;
-    width: 70vw;
+.navbar {
+  display: flex;
+  flex-direction: column;
 }
-#img_robot1{
-    width: 30vw;
-    height: auto;
+
+#introduction {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 15pt;
+  line-height: 2;
+  font-weight: 400;
+  width: 70vw;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text {
+  align-items: center;
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 72vw;
+}
+#img_robot1 {
+  width: 30vw;
+  height: auto;
+  /*al centro*/
+  margin-left: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
